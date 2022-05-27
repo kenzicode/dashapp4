@@ -7,9 +7,7 @@ const IndexPage = () => {
   return (
     <div className="h-screen max-w-full flex justify-between">
 
-      <Navigation />
-
-      <IndexContent />
+      <h1 className='text-4xl'>Landing Page</h1>
 
       <div className="flex h-full w-1/4 bg-gray-100">
         aside

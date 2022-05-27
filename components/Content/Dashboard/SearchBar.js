@@ -2,7 +2,7 @@ import { SearchCircleIcon } from '@heroicons/react/solid'
 
 const SearchBar = () => {
   return (
-    <div className='flex rounded-lg h-10 items-center w-full'>
+    <div className='flex rounded-lg h-10 items-center w-full mb-5'>
       <SearchCircleIcon className='w-10 h-10 text-gray-500 inline-flex items-center' />
       <input
         type="text"
